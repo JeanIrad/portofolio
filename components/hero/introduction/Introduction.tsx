@@ -5,11 +5,11 @@ export default function Introduction() {
       id=""
     >
       <h1 className="text-3xl sm:text-4xl text-center font-bold tracking-wide  text-sky-900/80">
-        Hello, I'm Jean De Dieu IRADUKUNDA
+        Hello, I&apos;m Jean De Dieu IRADUKUNDA
       </h1>
       <p className="text-lg">
-        I'm a software engineer based in the Rwanda. I specialize in building
-        websites and web applications.
+        I&apos;m a software engineer based in the Rwanda. I specialize in
+        building websites and web applications.
       </p>
     </div>
   );
