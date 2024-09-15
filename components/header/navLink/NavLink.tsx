@@ -13,7 +13,7 @@ export default function NavLink({ name }: NavLinkProps) {
   return (
     <Link
       href={`#${name.toLowerCase()}`}
-      className="text-2xl  text-sky-900/80 font-semibold duration-300 hover:-translate-y-1"
+      className="text-xl sm:text-2xl  text-sky-900/80 font-semibold duration-300 hover:-translate-y-1"
       onClick={() => handleScroll()}
     >
       {name}
