@@ -1,5 +1,6 @@
 // import Image from "next/image";
 import About from "@/components/about/About";
+import Contact from "@/components/contacts/Contact";
 import DesktopNavBar from "@/components/header/navbar/Navbar";
 import Hero from "@/components/hero/Hero";
 import Projects from "@/components/projects/Project";
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }

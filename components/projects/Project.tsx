@@ -9,7 +9,7 @@ const Projects = () => {
       </h1>
       <iframe
         src="https://e-commerce-mavericks-fn.netlify.app/"
-        height={"800"}
+        height={"500"}
         className="mx-auto w-full"
       ></iframe>
     </div>
