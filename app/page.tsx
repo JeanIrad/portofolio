@@ -1,6 +1,7 @@
 // import Image from "next/image";
 import About from "@/components/about/About";
 import Contact from "@/components/contacts/Contact";
+import { Footer } from "@/components/footer/Footer";
 import DesktopNavBar from "@/components/header/navbar/Navbar";
 import Hero from "@/components/hero/Hero";
 import Projects from "@/components/projects/Project";
@@ -16,6 +17,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -9,8 +9,11 @@ import nestjs from "@/public/skills/nestjs-svgrepo-com.svg";
 
 export default function Skills() {
   return (
-    <div className="w-full md:w-[80%] mx-auto px-4 mt-16 space-y-8" id="skills">
-      <h1 className="font-semibold text-sky-900/80 text-3xl text-center">
+    <div
+      className="w-full md:w-[80%] mx-auto sm:px-4 mt-16 space-y-8 "
+      id="skills"
+    >
+      <h1 className="font-semibold text-sky-900/80 text-xl text-center">
         Skills
       </h1>
       <div className="flex w-full flex-wrap gap-6 sm:flex-nowrap  items-center justify-center ">
