@@ -7,7 +7,7 @@ export default function About() {
       className="flex flex-col items-center justify-center gap-6 w-full mt-16 md:w-[80%] md:mx-auto px-4"
       id="about"
     >
-      <h1 className="text-3xl font-bold text-sky-900/80 ">About me</h1>
+      <h1 className="text-xl font-bold text-sky-900/80 ">About me</h1>
 
       <AboutDescription content={content} />
       <button className=" bg-sky-900 text-white rounded-md px-4 py-2 pointer-events-auto duration-200 ease-in-out hover:bg-sky-900/80">

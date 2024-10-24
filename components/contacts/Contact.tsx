@@ -4,7 +4,7 @@ const Contact = () => {
       className="w-full md:w-[80%] mx-auto px-4 mt-16 flex flex-col gap-8"
       id="contact"
     >
-      <h1 className="text-3xl font-bold text-center text-sky-900/80">
+      <h1 className="text-xl font-bold text-center text-sky-900/80">
         Contact me
       </h1>
       <form action="" className="flex flex-col items-center gap-4">
@@ -30,7 +30,7 @@ const Contact = () => {
             name="message"
             id="message"
             cols={30}
-            rows={10}
+            rows={6}
             className="resize-none border border-sky-900 py-2 pl-2 rounded-md focus:outline-none"
           ></textarea>
         </div>
